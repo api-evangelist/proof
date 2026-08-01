@@ -1,8 +1,27 @@
 aid: proof
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proof.png
 name: PROOF
-description: PROOF is a company surfaced as a portfolio company of a16z, kindred-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  PROOF is a digital art and NFT platform built on the belief that "art is proof
+  of our collective humanity." It is the company behind Moonbirds (its flagship
+  profile-picture collection), the 1,000-member PROOF Collective, and collections
+  including Oddities, Mythics, and the Grails art-collector experience, alongside
+  the Lunar Society community-governance program, a research arm, live events, and
+  a podcast. PROOF is backed by a16z and Kindred Ventures. Its public surface is a
+  consumer/collector documentation site (docs.proof.xyz) and marketing site; PROOF
+  does not currently publish a programmatic developer API, OpenAPI spec, SDKs, or
+  webhooks.
 url: https://raw.githubusercontent.com/api-evangelist/proof/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- NFT
+- Digital Art
+- Web3
+- Collectibles
+- Blockchain
+- Community
+- Ethereum
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://proof.xyz/
+- type: Documentation
+  url: https://docs.proof.xyz/
+- type: TermsOfService
+  url: https://proof.xyz/terms
+- type: PrivacyPolicy
+  url: https://proof.xyz/privacy
+- type: LLMsTxt
+  url: llms/proof-llms.txt
+- type: DomainSecurity
+  url: security/proof-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
